@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valorant</title>
+    <script
+            src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+            crossorigin="anonymous"></script>
+    <script type="application/javascript" src="js/script.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+<div class="wrapper">
+    <div id="circle1"></div>
+    <div id="circle2"></div>
+    <div id="circle3"></div>
+    <div id="circle4"></div>
+    <div id="circle5"></div>
+    <div id="circle6"></div>
+    <div id="circle7"></div>
+    <div class="header">
+        <div class="header__logo1"><a href="#"><img src="img/logo/logo1.png" alt="riot games"></a></div>
+        <div class="header__logo2"><a href="#"><img src="img/logo/logo2.png" alt="logo"></a></div>
+        <div class="nav">
+            <ul>
+                <li><a href="#">GAME</a></li>
+                <li><a href="#">CHAMPIONS</a></li>
+                <li class="li__osn"><a href="#">NEWS <img src="img/li.png" alt="li"></a>
+                   <div class="li__dropp">
+                        <ul>
+                            <li><a href="#">link 1</a></li>
+                            <li><a href="#">link 2</a></li>
+                            <li><a href="#">link 3</a></li>
+                        </ul>
+                   </div>
+                </li>
+                <li><a href="#">PATCH NOTES</a></li>
+                <li class="li__osn"><a href="#">DISCOVER <img src="img/li.png" alt="li"></a>
+                    <div class="li__dropp">
+                        <ul>
+                            <li><a href="#">link 1</a></li>
+                            <li><a href="#">link 2</a></li>
+                            <li><a href="#">link 3</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#">ESPORTS</a></li>
+                <li><a href="#">UNIVERSE</a></li>
+                <li><a href="#">SHOP</a></li>
+                <li><a href="#">SUPPORT</a></li>
+            </ul>
+        </div>
+        <div class="header__char">
+            <div class="header__char-wrap">
+                 <div class="char__icon"><img src="img/player/player.png" alt=""></div>
+                 <div class="char__name">UNEPICKID <img src="img/li.png" alt="li"></div>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="main-cont1" id="slide">
+            <div class="main__title">AGENTS</div>
+            <div class="main__chars">
+            <div class="main-char active" data-tab="1">
+                <div class="chars__text">
+                    <div class="chars__country">United Kingdom</div>
+                    <div class="chars__name">PHOENIX</div>
+                </div>
+                <div class="chars__portrait">
+                    <img src="img/hero/phoenix/phoenix.png" alt="phoenix">
+                </div>
+                <div class="chars__abilities active" data-tab="1">
+                    <img src="img/hero/phoenix/1a.svg" alt="1">
+                    <img src="img/hero/phoenix/a2.png" alt="2">
+                    <img src="img/hero/phoenix/a3.png" alt="3">
+                    <img src="img/hero/phoenix/a4.png" alt="4">
+                </div>
+            </div>
+            <div class="main-char" data-tab="2">
+                <div class="chars__text">
+                    <div class="chars__country">South Korea</div>
+                    <div class="chars__name">JETT</div>
+                </div>
+                <div class="chars__portrait">
+                    <img src="img/hero/jett/jett.png" alt="jett">
+                </div>
+                <div class="chars__abilities" data-tab="2">
+                    <img src="img/hero/jett/a1.png" alt="1">
+                    <img src="img/hero/jett/a2.png" alt="2">
+                    <img src="img/hero/jett/a3.png" alt="3">
+                    <img src="img/hero/jett/a4.png" alt="4">
+                </div>
+            </div>
+            <div class="main-char" data-tab="3" >
+                <div class="chars__text">
+                    <div class="chars__country">Russia</div>
+                    <div class="chars__name">SOVA</div>
+                </div>
+                <div class="chars__portrait">
+                    <img src="img/hero/sova/sova.png" alt="sova">
+                </div>
+                <div class="chars__abilities" data-tab="3">
+                    <img src="img/hero/sova/a1.png" alt="1">
+                    <img src="img/hero/sova/a2.png" alt="2">
+                    <img src="img/hero/sova/a3.png" alt="3">
+                    <img src="img/hero/sova/a4.png" alt="4">
+                </div>
+            </div>
+            <div class="main-char" data-tab="4">
+                <div class="chars__text">
+                    <div class="chars__country">China</div>
+                    <div class="chars__name">SAGE</div>
+                </div>
+                <div class="chars__portrait">
+                    <img src="img/hero/sage/sage.png" alt="sage">
+                </div>
+                <div class="chars__abilities" data-tab="4">
+                    <img src="img/hero/sage/1a1.png" alt="1">
+                    <img src="img/hero/sage/2a2.png" alt="2">
+                    <img src="img/hero/sage/3a3.png" alt="3">
+                    <img src="img/hero/sage/4a4.png" alt="4">
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="main-cont2">
+            <div class="main__skills active" data-tab="1">
+                <div class="skill__box">
+                    <div class="skill__cont">
+                        <div class="skill__title">BASIC</div>
+                        <div class="skill__subtitle">Phoenix's skill</div>
+                        <div class="skill__text"></div>
+                    </div>
+                    <div class="skill__img">
+                        <div class="skill__block">
+                            <img src="img/hero/phoenix/a1.png" style="filter: brightness(0.9) invert(1);
+                             padding: 4% 0 0 0;" alt="BASIC">
+                        </div>
+                    </div>
+                </div>
+                <div class="skill__box">
+                    <div class="skill__cont">
+                     <div class="skill__title">SIGNATURE</div>
+                     <div class="skill__subtitle">Phoenix's skill</div>
+                     <div class="skill__text"></div>
+                </div>
+                    <div class="skill__img">
+                    <div class="skill__block">
+                         <img src="img/hero/phoenix/a3.png" style="filter: brightness(0.9) invert(1)" alt="SIGNATURE">
+                    </div>
+                </div>
+                </div>
+                <div class="skill__box">
+                    <div class="skill__cont">
+                    <div class="skill__title">ULTIMATE</div>
+                    <div class="skill__subtitle">Phoenix's skill</div>
+                    <div class="skill__text">
+                    </div>
+                </div>
+                    <div class="skill__img">
+                    <div class="skill__block">
+                        <img src="img/hero/phoenix/a4.png" style="filter: brightness(0.9) invert(1)" alt="ULTIMATE">
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="main__skills" data-tab="2">
+                <div class="skill__box">
+                    <div class="skill__cont">
+                        <div class="skill__title">BASIC</div>
+                        <div class="skill__subtitle">Jett's skill</div>
+                        <div class="skill__text"></div>
+                    </div>
+                    <div class="skill__img">
+                        <div class="skill__block">
+                            <img src="img/hero/jett/a1.png" style="filter: brightness(0.9) invert(1)" alt="BASIC">
+                        </div>
+                    </div>
+                </div>
+                <div class="skill__box">
+                    <div class="skill__cont">
+                        <div class="skill__title">SIGNATURE</div>
+                        <div class="skill__subtitle">Jett's skill</div>
+                        <div class="skill__text"></div>
+                    </div>
+                    <div class="skill__img">
+                        <div class="skill__block">
+                            <img src="img/hero/jett/a3.png" style="filter: brightness(0.9) invert(1)" alt="SIGNATURE">
+                        </div>
+                    </div>
+                </div>
+                <div class="skill__box">
+                    <div class="skill__cont">
+                        <div class="skill__title">ULTIMATE</div>
+                        <div class="skill__subtitle">Jett's skill</div>
+                        <div class="skill__text">
+                        </div>
+                    </div>
+                    <div class="skill__img">
+                        <div class="skill__block">
+                            <img src="img/hero/jett/a4.png" style="filter: brightness(0.9) invert(1)" alt="ULTIMATE">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main__skills" data-tab="3">
+                <div class="skill__box">
+                    <div class="skill__cont">
+                        <div class="skill__title">BASIC</div>
+                        <div class="skill__subtitle">Sova's skill</div>
+                        <div class="skill__text"></div>
+                    </div>
+                    <div class="skill__img">
+                        <div class="skill__block">
+                            <img src="img/hero/sova/a1.png" style="filter: brightness(0.9) invert(1)" alt="BASIC">
+                        </div>
+                    </div>
+                </div>
+                <div class="skill__box">
+                    <div class="skill__cont">
+                        <div class="skill__title">SIGNATURE</div>
+                        <div class="skill__subtitle">Sova's skill</div>
+                        <div class="skill__text"></div>
+                    </div>
+                    <div class="skill__img">
+                        <div class="skill__block">
+                            <img src="img/hero/sova/a3.png" style="filter: brightness(0.9) invert(1)" alt="SIGNATURE">
+                        </div>
+                    </div>
+                </div>
+                <div class="skill__box">
+                    <div class="skill__cont">
+                        <div class="skill__title">ULTIMATE</div>
+                        <div class="skill__subtitle">Sova's skill</div>
+                        <div class="skill__text"></div>
+                    </div>
+                    <div class="skill__img">
+                        <div class="skill__block">
+                            <img src="img/hero/sova/a4.png" style="filter: brightness(0.9) invert(1)" alt="ULTIMATE">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main__skills" data-tab="4">
+                <div class="skill__box">
+                    <div class="skill__cont">
+                        <div class="skill__title">BASIC</div>
+                        <div class="skill__subtitle">Slow Orb</div>
+                        <div class="skill__text">Cast out a radianite orb that breaks into a slowing field upon impact
+                            with the ground.</div>
+                    </div>
+                    <div class="skill__img">
+                        <div class="skill__block">
+                            <img src="img/hero/sage/a1.png" alt="BASIC">
+                        </div>
+                    </div>
+                </div>
+                <div class="skill__box">
+                    <div class="skill__cont">
+                        <div class="skill__title">SIGNATURE</div>
+                        <div class="skill__subtitle">Healing Orb</div>
+                        <div class="skill__text">Heal an ally or yourself to full health over a few seconds.</div>
+                    </div>
+                    <div class="skill__img">
+                        <div class="skill__block">
+                            <img src="img/hero/sage/a3.png" alt="SIGNATURE">
+                        </div>
+                    </div>
+                </div>
+                <div class="skill__box">
+                    <div class="skill__cont">
+                        <div class="skill__title">ULTIMATE</div>
+                        <div class="skill__subtitle">Resurrection</div>
+                        <div class="skill__text">Target a friendly corpse. After a short delay, revive them with
+                            full health.</div>
+                    </div>
+                    <div class="skill__img">
+                        <div class="skill__block">
+                            <img src="img/hero/sage/a4.png" alt="ULTIMATE">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="next__hero-button">
+                <button class="next" id="next"></button>
+            </div>
+        </div>
+    </div>
+    <div class="footer"></div>
+</div>
+</body>
+</html>
